@@ -1,21 +1,23 @@
+import "./App.css";
+
 function App() {
   return (
-    <div
-      style={{
-        display: "flex",
-        justifyContent: "center",
-        alignItems: "center",
-        height: "100vh",
-        flexDirection: "column",
-        background: "#f5f7fb",
-        fontFamily: "sans-serif",
-      }}
-    >
-      <h1>🎉 初めてのReactアプリ</h1>
+    <div className="container">
+      <div className="card">
+        <div className="emoji">🎉</div>
 
-      <h2>神山高専3年</h2>
+        <h1>初めてのReactアプリ</h1>
 
-      <p>GitHub Actionsで公開しました！</p>
+        <h2>神山高専3年</h2>
+
+        <p>
+          GitHub Actionsを使って
+          <br />
+          Webページを公開しました！
+        </p>
+
+        <button>完成しました ✨</button>
+      </div>
     </div>
   );
 }
